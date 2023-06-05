@@ -34,7 +34,6 @@ type vaultkeeperd_socket, file_type, data_file_type;
 
 ### SYSFS
 type sysfs_argos, sysfs_type, r_fs_type, fs_type;
-type sysfs_battery, sysfs_type, r_fs_type, fs_type;
 type sysfs_bbd, sysfs_type, r_fs_type, fs_type;
 type sysfs_fingerprint, sysfs_type, r_fs_type, fs_type;
 type sysfs_iio, sysfs_type, r_fs_type, fs_type;
@@ -50,7 +49,6 @@ type sysfs_sensors, sysfs_type, r_fs_type, fs_type;
 type sysfs_wifi, sysfs_type, r_fs_type, fs_type;
 
 type sysfs_backlight_writable, sysfs_type, rw_fs_type, fs_type;
-type sysfs_battery_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_bt_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_gps_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_lcd_writable, sysfs_type, rw_fs_type, fs_type;
